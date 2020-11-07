@@ -11,14 +11,15 @@ Deployed using Heroku [Link Here](https://mt-design.herokuapp.com/)
 ### Components 
 - <s>Pricing Plan</s>
 - <s>FAQ</s>
+- <s>Cards</s> 
 - Contact Us Form
 - Login/Sign-up 
-- Cards 
+
 
 
 ### Pages to do
-- About Us
-- Blogs
+- <s>About Us</s>
+- <s>Blogs</s>
 - <s>Pricing</s>
 - Login/Sign-Up
 - Privacy Policy

@@ -97,7 +97,7 @@ export default ({
                                         <Category>{post.category}</Category>
                                         <CreationDate>{post.date}</CreationDate>
                                         <Title>{post.title}</Title>
-                                        {post.featured && post.descrption && <Description>{post.description}</Description>}
+                                        {post.featured && post.description && <Description>{post.description}</Description>}
                                     </Info>
                                 </Post>
                             </PostContainer>

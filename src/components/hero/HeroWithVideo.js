@@ -44,7 +44,7 @@ const LeftColumn = tw.div`flex flex-col items-center lg:block`;
 const RightColumn = tw.div`w-full sm:w-5/6  lg:w-1/2 mt-16 lg:mt-0 lg:pl-8`;
 
 const Heading = styled.h1`
-    ${tw`text-3xl text-center lg:text-left sm:text-4xl lg:text-5xl xl:text-6xl font-black text-gray-100 leading-none`}
+    ${tw`py-5 text-3xl text-center lg:text-left sm:text-4xl lg:text-5xl xl:text-6xl font-black text-gray-100 leading-none`}
     span {
         ${tw`inline-block mt-3`}
     }      
@@ -78,7 +78,7 @@ export default () => {
     const navLinks = [
         <NavLinks key={1}>
             <NavLink href="https://github.com/michaeltang85/mt-design" target="_blank">Github</NavLink>
-            <NavLink href="#">About</NavLink>
+            <NavLink href="/pages/AboutUsPage">About</NavLink>
             <NavLink href="/pages/BlogPage">Blog</NavLink>
             <NavLink href="/pages/PricingPage">Pricing</NavLink>
         </NavLinks>,
@@ -101,7 +101,7 @@ export default () => {
                             <br />
                             <SlantedBackground>Michael Tang</SlantedBackground>
                         </Heading>
-                        <PrimaryAction href="#">Learn More</PrimaryAction>
+                        <PrimaryAction as="a" href="https://github.com/michaeltang85/mt-design">Learn More</PrimaryAction>
                     </LeftColumn>
                     <RightColumn>
                         <StyledResponsiveVideoEmbed
