@@ -1,10 +1,9 @@
 # MT Design Website
 
 This project is a front-end design for some mockup website. \
-Deployed using Heroku [Link Here](https://mt-design.herokuapp.com/) \
 The UI Components are built using React and TailWindCSS for styling components. \
-All Components are modular and responsive. 
-
+All Components are modular and responsive. \
+Deployed using Heroku [Link Here](https://mt-design.herokuapp.com/) 
 
 
 ## To Do List
