@@ -77,15 +77,17 @@ const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
 export default () => {
     const navLinks = [
         <NavLinks key={1}>
-            <NavLink href="#">Github</NavLink>
+            <NavLink href="https://github.com/michaeltang85/mt-design" target="_blank">Github</NavLink>
             <NavLink href="#">About</NavLink>
             <NavLink href="#">Blog</NavLink>
-            <NavLink href="#">Pricing</NavLink>
+            <NavLink href="/pages/PricingPage">Pricing</NavLink>
         </NavLinks>,
         <NavLinks key={2}>
             <PrimaryLink href="/#">Login/Sign Up</PrimaryLink>
         </NavLinks>
     ];
+
+
 
     return(
         <Container>
@@ -99,7 +101,7 @@ export default () => {
                             <br />
                             <SlantedBackground>Michael Tang</SlantedBackground>
                         </Heading>
-                        <PrimaryAction href="#">Github</PrimaryAction>
+                        <PrimaryAction href="#">Learn More</PrimaryAction>
                     </LeftColumn>
                     <RightColumn>
                         <StyledResponsiveVideoEmbed

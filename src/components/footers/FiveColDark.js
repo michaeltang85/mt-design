@@ -55,7 +55,9 @@ export default () => {
                         </LogoContainer>
                         <CompanyAddress>
                             123 Street, New Building
+                            <br/>
                             Toronto, Ontario
+                            <br/>
                             M6A 2D9
                         </CompanyAddress>
                     <SocialLinksContainer>
@@ -94,7 +96,7 @@ export default () => {
                                 <Link href="#">Log In</Link>
                             </LinkListItem>
                             <LinkListItem>
-                                <Link href="#">Pricing Plans</Link>
+                                <Link href="/pages/PricingPage">Pricing Plans</Link>
                             </LinkListItem>
                             <LinkListItem>
                                 <Link href="#">Team</Link>
