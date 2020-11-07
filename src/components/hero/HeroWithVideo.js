@@ -79,7 +79,7 @@ export default () => {
         <NavLinks key={1}>
             <NavLink href="https://github.com/michaeltang85/mt-design" target="_blank">Github</NavLink>
             <NavLink href="#">About</NavLink>
-            <NavLink href="#">Blog</NavLink>
+            <NavLink href="/pages/BlogPage">Blog</NavLink>
             <NavLink href="/pages/PricingPage">Pricing</NavLink>
         </NavLinks>,
         <NavLinks key={2}>

@@ -1,9 +1,7 @@
 import React from "react";
 import Header, { NavLink, NavLinks, PrimaryLink } from "../components/headers/lightHeader.js";
-import Pricing from "../components/pricing/ThreePlans.js";
-import FAQ from "../components/faqs/FAQSingleCol.js";
+import Posts from "../components/blogs/OneMainPost.js";
 import Footer from "../components/footers/FiveColDark.js";
-
 
 // eslint-disable-next-line
 export default () => {
@@ -21,9 +19,8 @@ export default () => {
 
     return (
         <div>
-            <Header links={navLinks}/>
-            <Pricing/>
-            <FAQ />
+            <Header links={navLinks} />
+            <Posts />
             <Footer />
         </div>
     );
