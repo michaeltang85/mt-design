@@ -13,6 +13,7 @@ Deployed using Heroku (https://mt-design.herokuapp.com/)
 <pre>"git clone https://github.com/michaeltang85/mt-design" "cd mt-design"</pre> 
 </div>
 2. <code>npm install</code>
+<br> </br>
 3. <code>npm run start</code>
 
 
